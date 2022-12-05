@@ -141,33 +141,6 @@ int main() {
 		d[i].print();
 	}
 
-	quadrangle q[2];
-	for (int i = 0; i < 2; i++) {
-		q[i].setR();
-	}
-	for (int i = 0; i < 2; i++) {
-		cout << endl << "Quadrangle: " << i + 1 << endl;
-		q[i].print();
-	}
-
-	rectangle r[2];
-	for (int i = 0; i < 2; i++) {
-		r[i].setR();
-	}
-	for (int i = 0; i < 2; i++) {
-		cout << endl << "Rectangle: " << i + 1 << endl;
-		r[i].print();
-	}
-
-	triangle t[2];
-	for (int i = 0; i < 2; i++) {
-		t[i].setR();
-	}
-	for (int i = 0; i < 2; i++) {
-		cout << endl << "Triangle: " << i + 1 << endl;
-		t[i].print();
-	}
-
 
 	return 0;
 }
